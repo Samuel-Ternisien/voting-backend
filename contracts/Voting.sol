@@ -168,5 +168,3 @@ contract Voting is Ownable {
         return proposals[winningProposalId].description;
     }
 }
-message.txt
-8 KB

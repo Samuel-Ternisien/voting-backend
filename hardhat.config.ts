@@ -1,8 +1,8 @@
 require("@nomicfoundation/hardhat-toolbox");
+require('@openzeppelin/hardhat-upgrades');
 
 // Ensure your configuration variables are set before executing the script
 const { vars } = require("hardhat/config");
-
 // Go to https://alchemy.com, sign up, create a new App in
 // its dashboard, and add its key to the configuration variables
 const ALCHEMY_API_KEY = vars.get("ALCHEMY_API_KEY");
